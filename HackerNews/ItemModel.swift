@@ -15,7 +15,7 @@ struct Item : Decodable {
     var id : Int?
     var kids : [Int]?
     var score : Int?
-    var time : Date?
+    var time : Int?
     var title : String?
     var type : String?
     var url : String?

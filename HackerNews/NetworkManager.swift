@@ -17,8 +17,10 @@ class NetworkManager {
         if let url = URL(string: "\(baseURL)item/\(id).json") {
             URLSession.shared.dataTask(with: url) { data, response, error in
                 if let data = data {
-                    let item: Item = try! JSONDecoder().decode(Item.self, from: data)
-                    completion(item)
+                    if let item: Item = try? JSONDecoder().decode(Item.self, from: data)
+                    {
+                        completion(item)
+                    }
                 }
                 }.resume()
         }

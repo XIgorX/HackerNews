@@ -3,6 +3,20 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "closure #1 in closure #1 in ViewController.loadData():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "items">
+            </PersistentString>
+            <PersistentString
+               value = "category">
+            </PersistentString>
+            <PersistentString
+               value = "self?.items">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "ViewController.tableView(_:cellForRowAt:):ViewController+TableViewDatasource.swift">
          <PersistentStrings>
             <PersistentString
@@ -21,6 +35,31 @@
          <PersistentStrings>
             <PersistentString
                value = "items.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.defineCategory():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "items">
+            </PersistentString>
+            <PersistentString
+               value = "itemsTop">
+            </PersistentString>
+            <PersistentString
+               value = "itemsNew">
+            </PersistentString>
+            <PersistentString
+               value = "itemsBest">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in closure #1 in ViewController.loadData():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self?.items">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

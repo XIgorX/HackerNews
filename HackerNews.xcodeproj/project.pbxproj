@@ -18,6 +18,8 @@
 		59B3D09D242C034200556132 /* ViewController+TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B3D09C242C034200556132 /* ViewController+TableViewDelegate.swift */; };
 		59B3D0A0242C08AA00556132 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B3D09F242C08AA00556132 /* WebViewController.swift */; };
 		59B3D0A3242C0C0600556132 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B3D0A2242C0C0600556132 /* WebKit.framework */; };
+		59B3D0A7242CF0CB00556132 /* HackerNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B3D0A5242CF0CB00556132 /* HackerNewsCell.swift */; };
+		59B3D0A8242CF0CB00556132 /* HackerNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59B3D0A6242CF0CB00556132 /* HackerNewsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		59B3D09C242C034200556132 /* ViewController+TableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TableViewDelegate.swift"; sourceTree = "<group>"; };
 		59B3D09F242C08AA00556132 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		59B3D0A2242C0C0600556132 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		59B3D0A5242CF0CB00556132 /* HackerNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsCell.swift; sourceTree = "<group>"; };
+		59B3D0A6242CF0CB00556132 /* HackerNewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HackerNewsCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 		59B3D082242B39F900556132 /* HackerNews */ = {
 			isa = PBXGroup;
 			children = (
+				59B3D0A4242CCA8900556132 /* Cells */,
 				59B3D09E242C07D500556132 /* WebViewController */,
 				59B3D099242BED2B00556132 /* MainViewController */,
 				59B3D083242B39F900556132 /* AppDelegate.swift */,
@@ -105,6 +110,15 @@
 				59B3D0A2242C0C0600556132 /* WebKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59B3D0A4242CCA8900556132 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				59B3D0A5242CF0CB00556132 /* HackerNewsCell.swift */,
+				59B3D0A6242CF0CB00556132 /* HackerNewsCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +181,7 @@
 			files = (
 				59B3D08E242B39FB00556132 /* LaunchScreen.storyboard in Resources */,
 				59B3D08B242B39FB00556132 /* Assets.xcassets in Resources */,
+				59B3D0A8242CF0CB00556132 /* HackerNewsCell.xib in Resources */,
 				59B3D089242B39F900556132 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,6 +195,7 @@
 			files = (
 				59B3D096242B696A00556132 /* NetworkManager.swift in Sources */,
 				59B3D086242B39F900556132 /* ViewController.swift in Sources */,
+				59B3D0A7242CF0CB00556132 /* HackerNewsCell.swift in Sources */,
 				59B3D098242BCAE700556132 /* ItemModel.swift in Sources */,
 				59B3D09D242C034200556132 /* ViewController+TableViewDelegate.swift in Sources */,
 				59B3D0A0242C08AA00556132 /* WebViewController.swift in Sources */,
